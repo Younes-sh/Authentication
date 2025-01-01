@@ -11,7 +11,6 @@ const UserSchema = new Schema({
     zip: String,
     state: String,
     city: String,
-    imageProfile: String
 });
 
 
