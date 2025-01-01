@@ -1,0 +1,103 @@
+
+.text_header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--foreground);
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.Dashboard_Container {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(122, 130, 136); */
+}
+
+.Dashboard_Container div {
+    padding: 10px 5px;
+}
+
+.header_profile {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(65, 122, 167);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.header_profile p {
+    margin-top: 9px;
+    text-align: left;
+}
+.header_profile button {
+    background-color: rgb(65, 122, 167);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.header_profile button:hover {
+    background-color: rgb(48, 86, 125);
+}
+
+.left_section {
+    width: 20%;
+    min-height: 100vh;
+    border-right: solid 1px rgb(65, 122, 167);
+    float: left;
+}
+
+.right_section {
+    width: 80%;
+    height: 100%;
+    /* background-color: rgb(122, 130, 136); */
+    float: left;
+    margin-top: 30px;
+}
+
+.image_container {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(65, 122, 167);
+    border-radius: 50%;
+    /* margin-bottom: 10px; */
+}
+.image_container img {
+    width: 100%;
+    height: 110%;
+    margin-top: -4px;
+    border-radius: 50%;
+}
+.info_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    background-color: rgba(65, 123, 167, 0.363);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button_container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.button_container button {
+    padding: 5px 10px;
+    background-color: rgb(65, 122, 167);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.button_container button:hover {
+    background-color: rgb(48, 86, 125);
+}
