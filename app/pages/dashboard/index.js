@@ -41,7 +41,6 @@ export default function Dashboard() {
     const decoded = parseJwt(token);
     if (decoded && decoded.userId) {
       setUserId(decoded.userId); // ذخیره userId استخراج‌شده
-      console.log("userId from token:", decoded.userId); // نمایش userId در کنسول
     } else {
       console.error("Invalid token or missing userId");
     }
