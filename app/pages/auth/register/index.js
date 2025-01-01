@@ -17,7 +17,6 @@ function FormExample() {
   const [zip, setZip] = useState('');
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
-  const [imageProfile, setImageProfile] = useState("");
 
 const router = useRouter();
 
@@ -46,7 +45,6 @@ const router = useRouter();
           city,
           state,
           zip,
-          imageProfile
         }),
         headers: {
           "Content-Type": "application/json",
@@ -60,7 +58,6 @@ const router = useRouter();
       setCity('');
       setState('');
       setZip('');
-      setImageProfile("");
       // Reset form fields and validation state
       router.push("/auth/login")
       if (!res.ok) {
@@ -161,7 +158,7 @@ const router = useRouter();
 
             <Form.Group as={Col} md="3" controlId="validationCustom05">
               <Form.Label>Zip</Form.Label>
-              <Form.Control type="text" placeholder="Zip"  isValid={validated} 
+              <Form.Control type="number" placeholder="Zip"  isValid={validated} 
                 onChange={(e) => setZip(e.target.value)}
                 value={zip}
               />
@@ -197,16 +194,7 @@ const router = useRouter();
             </Form.Group>
 
 
-            <Form.Group as={Col} md="3" controlId="validationCustom05">
-              <Form.Label>Image profile</Form.Label>
-              <Form.Control type="text" placeholder="Image" required isValid={validated} 
-                onChange={(e) => setImageProfile(e.target.value)}
-                value={imageProfile}
-              />
-              <Form.Control.Feedback type="invalid">
-                Please provide a valid email.
-              </Form.Control.Feedback>
-            </Form.Group>
+            
           </Row>
 
 
