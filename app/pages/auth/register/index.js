@@ -67,7 +67,7 @@ const router = useRouter();
       // Handle successful registration
       console.log('Registration successful');
       const data = await res.json();
-      console.log(data);
+      console.log(data + "--------------------------------------------------------------------");
       // Display success message or handle the response as needed
     } catch (error) {
       // Handle registration errors

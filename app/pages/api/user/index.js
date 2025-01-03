@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
   if (req.method === 'GET') {
     const token = req.headers.authorization?.split(' ')[1]; // گرفتن توکن از هدر Authorization
-    console.log("Headers:", req.headers);
+    // console.log("Headers:", req.headers); // برای دیدن هدرهای درخواست
 
     if (!token) {
       console.error('Token is missing');
