@@ -10,6 +10,14 @@ npm install mongoose
 npm install jsonwebtoken
 npm install bcrypt
 ```
+or
+
+```
+npm i mongoose jsonwebtoken bcrypt
+```
+
+if (bcrypt) was deprecated you can install bcryptjs
+``` npm install bcryptjs ``` or ``` npm i bcryptjs```
 Don't forget to place the ``` env ``` file in the project root and enter the following values ​​into that file.
 
 ```
