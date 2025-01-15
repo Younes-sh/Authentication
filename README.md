@@ -4,7 +4,12 @@
 - mongoose (date base)
 - bcrypt
 - jsonwebtoken
-
+#### install Dependenceis:
+```
+npm install mongoose
+npm install jsonwebtoken
+npm install bcrypt
+```
 Don't forget to place the ``` env ``` file in the project root and enter the following values ​​into that file.
 
 ```
