@@ -16,7 +16,7 @@ or
 npm i mongoose jsonwebtoken bcrypt
 ```
 
-if (bcrypt) was deprecated you can install bcryptjs
+if (bcrypt) is deprecated you can install bcryptjs
 ``` npm install bcryptjs ``` or ``` npm i bcryptjs```
 
 #### Attention!
